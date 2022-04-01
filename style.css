@@ -60,7 +60,7 @@
 	/* css-ки всего документа и заголовков закончились*/
 	
 .container {
-    width: 40%;
+    width: 100%;
     display: inline-block;
     height: 300px;
     
