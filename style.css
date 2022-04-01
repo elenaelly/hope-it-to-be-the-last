@@ -1,1 +1,242 @@
+	body {
+		max-width: 100%;
+    padding-left: 10%;
+    padding-top: 2%;
+    margin: 5%;
+		font-family: "Inter", sans-serif;
+		font-weight: 300;
+    line-height: 1.0
+	}
+	
+	h1 {
+		page-break-after: avoid;
+		text-align: left;
+		font-size: 40px;
+    padding-bottom: 3%;
+    font-family: "Inter", sans-serif;
+    line-height: 1.0;
+	}
 
+
+		p {
+		font-size: 12pt;
+		font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 1.7em;
+    padding: 0px;
+    margin: 0px
+	}
+	
+	
+	
+	/*h5 {
+		padding-top: 12pt;
+		color: #666666;
+		font-size: 11pt;
+		padding-bottom: 4pt;
+		font-family: "Arial";
+		line-height: 1.15;
+		page-break-after: avoid;
+		orphans: 2;
+		widows: 2;
+		text-align: left
+	}
+	
+	h6 {
+		padding-top: 12pt;
+		color: #666666;
+		font-size: 11pt;
+		padding-bottom: 4pt;
+		font-family: "Arial";
+		line-height: 1.15;
+		page-break-after: avoid;
+		font-style: italic;
+		orphans: 2;
+		widows: 2;
+		text-align: left
+	}*/
+
+	
+	/* css-ки всего документа и заголовков закончились*/
+	
+.container {
+    width: 40%;
+    display: inline-block;
+    height: 300px;
+    
+}
+
+.first {width: 20%;
+    display: inline-block;
+    vertical-align: middle;}
+
+.second {width: 50%;
+    display: inline-block;
+  vertical-align: middle; }
+
+img {
+		text-align: center;
+		overflow: hidden; 
+		display: inline-block; 
+		width: 200px; 
+		height: 200px
+	}
+
+.contact-info{
+  margin-bottom: 5%;
+  max-width: 70%
+}
+
+	.image-cell {
+		vertical-align: middle;
+		width: 40%;
+    padding-right: 0px;
+    margin-right: 0px
+	}
+	
+	.image {
+		text-align: center;
+		overflow: hidden; 
+		display: inline-block; 
+		width: 150px; 
+		height: 150px
+	}
+
+
+	/* Контактные данные закончились */
+	
+	/* Желаемая должность */
+	
+	.h2 {
+  font-size: 36px;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  page-break-after: avoid;
+  padding-bottom: 5%
+	}
+	
+	/* Опыт */
+	
+	.h3 {
+		text-align: left;
+		font-size: 28px;
+    color: #434343;
+    font-family: "Inter", sans-serif;
+    page-break-after: avoid;
+		}
+
+h4 {
+		
+		color: #666666;
+		font-size: 18pt;
+		padding-bottom: 2%;
+		font-family: "Inter", sans-serif;
+		line-height: 1;
+		page-break-after: avoid;
+		text-align: left
+	}
+
+	
+	.exp-table {width: 100%; 
+    padding-bottom: 5%}
+	
+	.exp-table-row {
+	}
+	
+	.exp-date {
+    font-family: "Inter", sans-serif;
+		padding-right: 3%;
+		vertical-align: top;
+		width: 15%;
+		
+		font-size: 12px;
+		text-align: left
+	}
+	
+	.prev-company {
+		vertical-align: top;
+		width: 85%;				
+	}
+	
+	.company-name {
+    font-weight: 600;
+    font-size: 18px;  
+    font-style: bold;
+}
+	
+	.company-address {
+		vertical-align: middle;
+		font-size: 14px
+	}
+
+.responsibilities {  
+}
+
+.resp-title {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  }
+
+
+.exp-table-row {
+}
+	
+	.resp-example {
+		font-weight: 300;
+		vertical-align: middle;
+		font-size: 12pt;
+		vertical-align: middle;
+	}
+	
+	/* Опыт закончился */
+	
+/* Навыки */
+
+.skills-block {
+  width: 50%;}
+	
+.badge-hard {
+  background: linear-gradient(#a0ddff, #a4b3ff);
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  padding: 0.5% 0.6% 0.5% 0.6%;
+  border-radius: 5px;
+  margin-right: 1%;
+  line-height: 3em;
+  color: dark-blue
+}	
+	
+.badge-soft {
+  background: linear-gradient(to bottom, #ffbfa0 0%, #ffdfa0 100%);
+  padding: 0.5%;
+  font-family: Inter, sans-serif;
+    border-radius: 5px;
+  margin-right: 1%;
+  line-height: 3em
+}		
+	
+.badge-lang {
+  background: linear-gradient(to bottom, #7ef29d 0%, #a0fff4  100%);
+  padding: 0.5%;
+  font-family: Inter, sans-serif;
+  border-radius: 5px;
+  margin-right: 1%;
+  line-height: 3em
+}			
+	
+.badge-personal {
+  background: linear-gradient(to bottom, # 0%, #ffeda0 100%);
+  padding: 0.5%;
+  font-family: Inter, sans-serif;
+  border-radius: 5px;
+  margin-right: 1%;
+  line-height: 3em
+}			
+	
+	/* Навыки закончились */
+	
+	
+	/* Образование */
+.education {
+  width: 100%
+}
